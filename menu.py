@@ -25,6 +25,8 @@ class Menu:
                 self.registrar_usuario()
             elif self.decision == 2:
                 self.biblioteca.mostrar_libros()
+                self.biblioteca.preguntaralusuariosiquierevarlascategorias()
+
             elif self.decision == 3:
                 self.biblioteca.registro_nuevos_libros()
             elif self.decision == 0:
